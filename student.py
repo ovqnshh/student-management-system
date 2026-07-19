@@ -2,10 +2,7 @@ students = {}
 
 
 def add_student(student_id, name):
-    if student_id in students:
-        return False
-    students[student_id] = name
-    return True
+    return False
 
 
 def remove_student(student_id):
