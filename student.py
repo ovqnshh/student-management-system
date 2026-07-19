@@ -18,7 +18,7 @@ def remove_student(student_id):
 def search_student(student_id):
     if student_id in students:
         return f"Student Found: {students[student_id]}"
-    return "Student Not Found"
+    return "Student Not Found in Database"
 
 
 def update_student(student_id, new_name):
